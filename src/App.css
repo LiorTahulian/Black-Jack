@@ -1,0 +1,88 @@
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(168, 219, 140, 1),
+    rgba(0, 195, 52, 1)
+  );
+  margin: 0;
+}
+
+.drawCard {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background: #23ef52;
+  box-shadow: 0 5px #44d904;
+}
+.drawCard:hover {
+  box-shadow: 0 3px #44d904;
+  top: 1px;
+}
+.drawCard:active {
+  box-shadow: 0 0 #44d904;
+  top: 5px;
+}
+
+.standTurn {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background: #ef233c;
+  box-shadow: 0 5px #d90429;
+}
+.standTurn:hover {
+  box-shadow: 0 3px #d90429;
+  top: 1px;
+}
+.standTurn:active {
+  box-shadow: 0 0 #d90429;
+  top: 5px;
+}
+
+img {
+  width: 120px;
+  margin: 5px;
+}
+
+.close {
+  color: #d90429;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.modal-text {
+  text-align: center;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.modal-button {
+  margin: 10px;
+}
